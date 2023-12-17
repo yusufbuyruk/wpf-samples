@@ -18,22 +18,24 @@
         <Border CornerRadius="10,0,0,10">
             <Border.Background>
                 <LinearGradientBrush EndPoint="1,1" StartPoint="0,0">
-                    <GradientStop Color="#FF3AA9AD" Offset="0"/>
-                    <GradientStop Color="#FF3AADA1" Offset="1"/>
+                    <GradientStop Color="#3aa9ad" Offset="0"/>
+                    <GradientStop Color="#3aada1" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
             <Grid>
                 <Canvas>
                     <Polygon Points="0,20 230,140 0,270" Fill="#FF4EB1B6" />
                     <Polygon Points="100,400 200,370 180,470" Fill="#FF4EB1B6" />
-                    <Ellipse Height="40" Width="40" Margin="250,450,0,0" Fill="#FF4EB1B6"/>
-                    <Ellipse Height="20" Width="20" Margin="50,400,0,0" Fill="#FF4EB1B6"/>
+                    <Ellipse Height="40" Width="40" Margin="250,450,0,0" Fill="#4eb1b6"/>
+                    <Ellipse Height="20" Width="20" Margin="50,400,0,0" Fill="#4eb1b6"/>
                 </Canvas>
+                
                 <StackPanel VerticalAlignment="Center">
                     <TextBlock Text="Sign Up" Style="{StaticResource titleText}"/>
-                    <TextBlock Text="Enter your personal info and create new account to connect us" Style="{StaticResource normalText}" Opacity="0.8" Margin="20, 30"/>
+                    <TextBlock Text="Enter your personal info and create new account to connect us" Style="{StaticResource normalText}" Opacity=".8" Margin="20, 30"/>
                     <Button Content="Sign Up" Style="{StaticResource button}"/>
                 </StackPanel>
+
             </Grid>
         </Border>
         <Border BorderThickness="0" Grid.Column="1" Background="White" CornerRadius="0,10,10,0" MouseDown="Border_MouseDown" >
