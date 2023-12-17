@@ -10,7 +10,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\close.png" />
+    <None Remove="Images\minimize.png" />
+    <None Remove="Images\user.png" />
+    <None Remove="user.png" />
+    <None Remove="x-lg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\close.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\minimize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\user.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="user.png" />
+    <Resource Include="x-lg.png" />
   </ItemGroup>
 
 </Project>
