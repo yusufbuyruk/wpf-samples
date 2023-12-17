@@ -1,0 +1,177 @@
+﻿<Window x:Class="social_media_dashboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:social_media_dashboard"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="730" Width="1280"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="Transparent">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Grid Background-->
+        <Grid Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.4*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border CornerRadius="10 10 0 0">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#b92120" Offset="0"/>
+                        <GradientStop Color="#b81f1e" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+
+            <Border Grid.Row="1" CornerRadius="0 0 10 10" Background="#eaeaea" />
+            
+        </Grid>
+
+        <!--Top menu-->
+
+        <Grid Grid.ColumnSpan="2" Grid.Row="0" Margin="50 30 50 40">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock Text="Analysis" Style="{StaticResource menuTitle}" Opacity="1"/>
+                <TextBlock Text="Leaderboard" Style="{StaticResource menuTitle}"/>
+                <TextBlock Text="Realtime" Style="{StaticResource menuTitle}"/>
+                <TextBlock Text="Trending" Style="{StaticResource menuTitle}"/>
+                <TextBlock Text="Favorite" Style="{StaticResource menuTitle}"/>
+            </StackPanel>
+        </Grid>
+        
+        <!--Left Menu-->
+
+        <Border Background="#fdfdfd" Grid.Row="1" BorderBrush="#dbdbdb" Width="125" CornerRadius="15" Margin="50 0 50 40">
+
+            <StackPanel>
+                <Button Style="{StaticResource menuButton}" Margin="0 10 0 0" Background="#ac0f0f" Foreground="White">
+                    <StackPanel>
+                        <fa:ImageAwesome Icon="Home" Style="{StaticResource menuButtonIcon}" />
+                        <TextBlock Text="Dashboard" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel>
+                        <fa:ImageAwesome Icon="Bookmark" Style="{StaticResource menuButtonIcon}" />
+                        <TextBlock Text="Bookmarks" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel>
+                        <fa:ImageAwesome Icon="Tags" Style="{StaticResource menuButtonIcon}" />
+                        <TextBlock Text="Tags" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel>
+                        <fa:ImageAwesome Icon="FileText" Style="{StaticResource menuButtonIcon}" />
+                        <TextBlock Text="Posts" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel>
+                        <fa:ImageAwesome Icon="Comments" Style="{StaticResource menuButtonIcon}" />
+                        <TextBlock Text="Messages" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel>
+                        <fa:ImageAwesome Icon="Cog" Style="{StaticResource menuButtonIcon}" />
+                        <TextBlock Text="Settings" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+            </StackPanel>
+
+        </Border>
+        
+        
+        <!--Main Panel-->
+
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="0 0 50 20" VerticalAlignment="Stretch">
+            <Grid Height="110" Margin="-8 0 -8 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!--Info Card-->
+
+                <Border Grid.Column="0" Style="{StaticResource infoCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Style="{StaticResource infoCardStack}">
+                            <TextBlock Text="42,500,000" Style="{StaticResource infoCardTitle}"/>
+                            <TextBlock Text="Total Viewers" Style="{StaticResource infoCardText}"/>
+                        </StackPanel>
+                        <fa:ImageAwesome Icon="Eye" Style="{StaticResource infoCardIcon}"/>
+                    </Grid>
+                </Border>
+
+                <!--Info Card-->
+
+                <Border Grid.Column="1" Style="{StaticResource infoCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Style="{StaticResource infoCardStack}">
+                            <TextBlock Text="42,500,000" Style="{StaticResource infoCardTitle}"/>
+                            <TextBlock Text="Total Viewers" Style="{StaticResource infoCardText}"/>
+                        </StackPanel>
+                        <fa:ImageAwesome Icon="Eye" Style="{StaticResource infoCardIcon}"/>
+                    </Grid>
+                </Border>
+
+                <!--Info Card-->
+
+                <Border Grid.Column="2" Style="{StaticResource infoCard}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Style="{StaticResource infoCardStack}">
+                            <TextBlock Text="42,500,000" Style="{StaticResource infoCardTitle}"/>
+                            <TextBlock Text="Total Viewers" Style="{StaticResource infoCardText}"/>
+                        </StackPanel>
+                        <fa:ImageAwesome Icon="Eye" Style="{StaticResource infoCardIcon}"/>
+                    </Grid>
+                </Border>
+
+
+            </Grid>
+
+
+            <Border Background="#fdfdfd" Padding="15" Margin="0 20 0 0" CornerRadius="15"/>
+
+        </StackPanel>
+        
+        
+        
+    </Grid>
+</Window>
