@@ -16,7 +16,6 @@
     <None Remove="Images\tr.png" />
     <None Remove="Images\uk.png" />
     <None Remove="Images\us.png" />
-    <None Remove="UserControls\de.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,7 +45,6 @@
     <Resource Include="Images\us.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="UserControls\de.png" />
   </ItemGroup>
 
 </Project>
