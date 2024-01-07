@@ -1,0 +1,103 @@
+﻿<Window x:Class="DragDrop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DragDrop" Height="466" Width="650">
+    <Canvas Name="canvas"
+            Width="600" Height="400" Background="#e6e6e6"
+            HorizontalAlignment="Center" VerticalAlignment="Center" ClipToBounds="True">
+
+        <Path Name="path" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Stroke="Blue" StrokeThickness="8">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="{Binding ElementName=c0, Path=Tag}">
+                        <BezierSegment Point1="{Binding ElementName=c1, Path=Tag}" 
+                                       Point2="{Binding ElementName=c2, Path=Tag}" 
+                                       Point3="{Binding ElementName=c3, Path=Tag}"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+
+        <Path Name="line" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Stroke="Red" StrokeThickness="8">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="{Binding ElementName=l0, Path=Tag}">
+                        <LineSegment Point="{Binding ElementName=l1, Path=Tag}"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+
+
+        <Ellipse Name="c0"  Width="32" Height="32"
+                 Fill="LightGray" Stroke="Red" StrokeThickness="4"
+                 Canvas.Top="50" Canvas.Left="50"
+                 MouseDown="Ellipse_MouseDown" MouseMove="Ellipse_MouseMove" MouseUp="Ellipse_MouseUp"
+                 Tag="66,66">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="2" Opacity=".6" Color="#666666" Direction="-45"/>
+            </Ellipse.Effect>
+        </Ellipse>
+
+        <Ellipse Name="c1"  Width="32" Height="32"
+                 Fill="LightGray" Stroke="Red" StrokeThickness="4"
+                 Canvas.Top="50" Canvas.Left="200"
+                 MouseDown="Ellipse_MouseDown" MouseMove="Ellipse_MouseMove" MouseUp="Ellipse_MouseUp"
+                 Tag="216,66">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="2" Opacity=".6" Color="#666666" Direction="-45"/>
+            </Ellipse.Effect>
+        </Ellipse>
+
+        <Ellipse Name="c2"  Width="32" Height="32"
+                 Fill="LightGray" Stroke="Red" StrokeThickness="4"
+                 Canvas.Top="200" Canvas.Left="200"
+                 MouseDown="Ellipse_MouseDown" MouseMove="Ellipse_MouseMove" MouseUp="Ellipse_MouseUp"
+                 Tag="216,216">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="2" Opacity=".6" Color="#666666" Direction="-45"/>
+            </Ellipse.Effect>
+        </Ellipse>
+
+        <Ellipse Name="c3"  Width="32" Height="32"
+                 Fill="LightGray" Stroke="Red" StrokeThickness="4"
+                 Canvas.Top="200" Canvas.Left="400"
+                 MouseDown="Ellipse_MouseDown" MouseMove="Ellipse_MouseMove" MouseUp="Ellipse_MouseUp"
+                 Tag="416,216">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="2" Opacity=".6" Color="#666666" Direction="-45"/>
+            </Ellipse.Effect>
+        </Ellipse>
+
+        <Ellipse Name="l0" Width="40" Height="40"
+                 Fill="LightGray" Stroke="Green" StrokeThickness="4"
+                 Canvas.Top="100" Canvas.Left="100"
+                 MouseDown="Ellipse_MouseDown" MouseMove="Ellipse_MouseMove" MouseUp="Ellipse_MouseUp" Cursor="Hand"
+                 Tag="120,120">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="2" Opacity=".6" Color="#666666" Direction="-45"/>
+            </Ellipse.Effect>
+        </Ellipse>
+
+        <Ellipse Name="l1" Width="40" Height="40"
+                 Fill="LightGray" Stroke="Green" StrokeThickness="4"
+                 Canvas.Top="50" Canvas.Left="400"
+                 MouseDown="Ellipse_MouseDown" MouseMove="Ellipse_MouseMove" MouseUp="Ellipse_MouseUp" Cursor="Hand"
+                 Tag="420,70">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="2" Opacity=".6" Color="#666666" Direction="-45"/>
+            </Ellipse.Effect>
+        </Ellipse>
+
+        <Ellipse Width="20" Height="20"
+                 Fill="Black"
+                 Canvas.Top="200" Canvas.Left="100"
+                 MouseDown="Ellipse_MouseDown" MouseMove="Ellipse_MouseMove" MouseUp="Ellipse_MouseUp" Cursor="Hand">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="2" ShadowDepth="2" Opacity=".6" Color="#666666" Direction="-45"/>
+            </Ellipse.Effect>
+        </Ellipse>
+
+        
+    </Canvas>
+</Window>
