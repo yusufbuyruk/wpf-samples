@@ -6,6 +6,7 @@
     <RootNamespace>Dropdown_Menu_App</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>CrossRunner.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -68,6 +69,7 @@
     <Content Include="Assets\img_web_design.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="CrossRunner.ico" />
   </ItemGroup>
 
 </Project>

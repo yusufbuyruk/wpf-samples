@@ -603,7 +603,7 @@
                 CornerRadius="5">
 
             <Grid>
-                <TextBlock Text="C  #    D  E  S  I  G  N    P  R  O"
+                <TextBlock Text="W P F    P O R T F O L I O"
                            Foreground="#D3D7DC"
                            FontFamily="Rubik"
                            FontSize="17"
