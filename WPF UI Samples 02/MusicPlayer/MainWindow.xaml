@@ -114,6 +114,14 @@
 
 
                     <Grid>
+                        <Border CornerRadius="200">
+                            <Border.Background>
+                                <LinearGradientBrush>
+                                    <GradientStop Color="#30ad9a" Offset="0"/>
+                                    <GradientStop Color="#18c274" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
                         <Border Opacity=".07" CornerRadius="20">
                             <Border.Background>
                                 <ImageBrush ImageSource="/Images/p2.jpg"/>
@@ -192,7 +200,7 @@
                         <Icon:PackIconMaterial Kind="SkipNext" Style="{StaticResource playerButtonIcon}" />
                     </Button>
 
-                    <Slider Style="{DynamicResource SliderStyle1}" x:Name="slider" IsSelectionRangeEnabled="True" VerticalAlignment="Center" Value="5" Width="350" 
+                    <Slider Style="{StaticResource SliderStyle1}" x:Name="slider" IsSelectionRangeEnabled="True" VerticalAlignment="Center" Value="5" Width="350" 
                             SelectionEnd="{Binding ElementName=slider, Path=Value}" />
 
                     <Button Style="{StaticResource playerButton}">

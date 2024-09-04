@@ -61,7 +61,7 @@
                 </Grid>
 
                 <!--Slider-->
-                <Slider Style="{DynamicResource SliderStyle1}" IsSelectionRangeEnabled="True" SelectionEnd="{Binding ElementName=infoCard, Path=Value}"/>
+                <Slider Style="{StaticResource SliderStyle1}" IsSelectionRangeEnabled="True" SelectionEnd="{Binding ElementName=infoCard, Path=Value}"/>
 
 
                 <!--Sub Slider Section-->
