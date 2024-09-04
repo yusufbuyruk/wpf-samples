@@ -116,7 +116,7 @@
            TargetType="{x:Type TextBlock}">
 
         <Setter Property="Text"
-                Value="C #   D E S I G N   P R O" />
+                Value="W P F    P O R T F O L I O" />
         <Setter Property="FontFamily"
                 Value="Fonts/#Rubik" />
         <Setter Property="FontSize"
