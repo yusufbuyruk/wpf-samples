@@ -6,6 +6,7 @@
     <RootNamespace>MVVM_Window_App</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>CrossRunner.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +16,10 @@
     <None Remove="Images\open.png" />
     <None Remove="Images\shutdown_def.png" />
     <None Remove="Images\shutdown_mo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="CrossRunner.ico" />
   </ItemGroup>
 
   <ItemGroup>
