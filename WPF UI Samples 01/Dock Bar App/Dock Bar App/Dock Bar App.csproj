@@ -6,6 +6,7 @@
     <RootNamespace>Dock_Bar_App</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>CrossRunner.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -64,6 +65,7 @@
     <Content Include="Assets\shutdown_mo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="CrossRunner.ico" />
   </ItemGroup>
 
 </Project>

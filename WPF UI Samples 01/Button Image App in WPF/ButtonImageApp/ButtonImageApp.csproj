@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>CrossRunner.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -109,6 +112,9 @@
   <ItemGroup>
     <Resource Include="Assets\close_default.png" />
     <Resource Include="Assets\close_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CrossRunner.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -226,7 +226,7 @@
             <TextBlock Grid.Row="0"
                        Grid.Column="1"
                        Grid.ColumnSpan="2"
-                       Text="C #   D E S I G N   P R O"
+                       Text="W P F    P O R T F O L I O"
                        Foreground="#CDD7E0"
                        FontFamily="Oswald"
                        FontSize="36"
@@ -695,7 +695,7 @@
 
                         <Border Style="{StaticResource user_border}">
 
-                            <TextBlock Text="Arun Mutharasu"
+                            <TextBlock Text="WPF Portfolio"
                                        Style="{StaticResource PopupText}" />
 
                         </Border>
