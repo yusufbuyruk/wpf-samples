@@ -91,7 +91,7 @@
 
                 </Border>
 
-                <TextBlock Text="C# Design Pro"
+                <TextBlock Text=""
                            FontSize="90"
                            FontWeight="ExtraBold"
                            FontFamily="Fonts/#Comforter"

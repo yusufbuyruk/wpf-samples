@@ -266,7 +266,7 @@
                   Background="#233C4F">
 
                 <!--add a header title-->
-                <TextBlock Text="C# Design Pro"
+                <TextBlock Text=""
                            FontFamily="open sans condensed"
                            FontSize="26"
                            VerticalAlignment="Center"

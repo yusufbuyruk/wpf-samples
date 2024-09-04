@@ -1,8 +1,4 @@
-﻿<!--
-    /// Author : R. Arun Mutharasu
-    /// Created On :13-06-2022
-    /// YouTube Channel : C# Design Pro 
- -->
+﻿
 
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">

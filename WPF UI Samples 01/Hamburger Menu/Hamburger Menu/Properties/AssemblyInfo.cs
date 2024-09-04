@@ -13,7 +13,7 @@ using System.Windows;
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Hamburger Menu App By R. Arun Mutharasu")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
-[assembly: AssemblyTrademark("C# Design Pro")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

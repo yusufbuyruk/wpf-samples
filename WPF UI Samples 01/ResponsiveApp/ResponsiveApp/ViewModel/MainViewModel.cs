@@ -1,8 +1,4 @@
-﻿/// <Summary>
-/// Author : R. Arun Mutharasu
-/// Created :25-01-2022
-/// YouTube Channel : C# Design Pro 
-/// </Summary>   
+﻿
 
 using System.ComponentModel;
 using System.Windows.Input;

@@ -7,13 +7,13 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PopupApp - Designed and Developed by R. Arun Mutharasu")]
+[assembly: AssemblyTitle("WPF Samples")]
 [assembly: AssemblyDescription("Animated Popup in WPF")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("C# Design Pro - YouTube Channel")]
-[assembly: AssemblyProduct("PopupApp - Designed and Developed by R. Arun Mutharasu")]
-[assembly: AssemblyCopyright("Copyright © C# Design Pro - R. Arun Mutharasu - YouTube Channel 2019")]
-[assembly: AssemblyTrademark("C# Design Pro")]
+[assembly: AssemblyCompany("WPF Samples")]
+[assembly: AssemblyProduct("WPF Samples")]
+[assembly: AssemblyCopyright("")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

@@ -12,8 +12,8 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Arun Enterprises")]
 [assembly: AssemblyProduct("WPF - Navigation Drawer App - Developed & Designed by R. Arun Mutharasu")]
-[assembly: AssemblyCopyright("C# Design Pro [ YouTube Channel ] - Copyright ©  2020")]
-[assembly: AssemblyTrademark("C# Design Pro")]
+[assembly: AssemblyCopyright(" [ YouTube Channel ] - Copyright ©  2020")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

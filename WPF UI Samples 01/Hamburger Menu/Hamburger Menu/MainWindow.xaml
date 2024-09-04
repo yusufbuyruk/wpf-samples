@@ -1,8 +1,4 @@
-﻿    <!--/// <Summary> ///
-    /// Author : R. Arun Mutharasu ///
-    /// Created : 15-06-2021 ///
-    /// YouTube Channel : C# Design Pro ///
-    /// </Summary>-->
+﻿
 
 <Window x:Class="Hamburger_Menu.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
