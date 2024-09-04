@@ -36,11 +36,6 @@
                    HorizontalAlignment="Center"
                    Margin="0,0,0,50">
             
-            <Run Text="C #   D E S I G N"
-                 Foreground="#FFFFFF" />
-            
-            <Run Text="  P R O"
-                 Foreground="#FEF200" />
 
         </TextBlock>
 
