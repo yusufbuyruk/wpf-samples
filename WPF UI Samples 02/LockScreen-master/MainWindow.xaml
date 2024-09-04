@@ -86,10 +86,10 @@
             </materialDesign:Card>
         </Grid>
 
-        <notifications:NotificationArea Panel.ZIndex="99" Margin="10" x:Name="WindowArea" Position="TopRight" Grid.Column="2" Grid.RowSpan="2" MaxItems="4" FlowDirection="RightToLeft"/>
+        <notifications:NotificationArea Panel.ZIndex="99" Margin="10" x:Name="WindowArea" Position="TopRight" Grid.Column="2" Grid.RowSpan="2" MaxItems="4" FlowDirection="LeftToRight"/>
 
         <materialDesign:Chip HorizontalContentAlignment="Right" FlowDirection="LeftToRight" HorizontalAlignment="Right" Click="Chip_Click"
                              VerticalAlignment="Bottom" VerticalContentAlignment="Center" Margin="0 0 50 60" Background="White"
-                             Grid.Column="2" Grid.Row="2" Icon="sz" Content="Donald Trump" />
+                             Grid.Column="2" Grid.Row="2" Icon="sz" Content="Password: 123" />
     </Grid>
 </Window>
