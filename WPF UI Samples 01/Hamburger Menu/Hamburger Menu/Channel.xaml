@@ -56,7 +56,7 @@
                            TextAlignment="Center"
                            Margin="15,0,0,0"
                            HorizontalAlignment="Left"
-                           Text="C #"
+                           Text="W P F"
                            VerticalAlignment="Center">
                 </TextBlock>
 
@@ -210,7 +210,7 @@
                            TextAlignment="Center"
                            Margin="15,0,0,0"
                            HorizontalAlignment="Left"
-                           Text="P R O"
+                           Text="P O R T F O L I O"
                            VerticalAlignment="Center" />
 
             </Border>
