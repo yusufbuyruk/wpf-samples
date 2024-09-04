@@ -29,7 +29,7 @@
                 VerticalAlignment="Top"
                 CornerRadius="0,0,12,12">
 
-            <TextBlock Text="C #   D E S I G N   P R O"
+            <TextBlock Text="W P F    P O R T F O L I O"
                        Foreground="#2A2C2D"
                        FontSize="18"
                        FontFamily="Fonts/#Kanit Medium"

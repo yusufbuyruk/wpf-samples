@@ -220,7 +220,7 @@
            TargetType="TextBlock">
 
         <Setter Property="Text"
-                Value="D E S I G N   T H E   I N T E R F A C E" />
+                Value="W P F    P O R T F O L I O" />
         <Setter Property="Foreground"
                 Value="#FFFFFF" />
         <Setter Property="FontSize"

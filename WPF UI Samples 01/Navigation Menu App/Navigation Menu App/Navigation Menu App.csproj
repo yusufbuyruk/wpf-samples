@@ -6,6 +6,7 @@
     <RootNamespace>Navigation_Menu_App</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>CrossRunner.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -39,6 +40,10 @@
     <None Remove="Assets\shutdown_mo.png" />
     <None Remove="Fonts\Orbitron-Medium.ttf" />
     <None Remove="Fonts\Roboto-Light.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="CrossRunner.ico" />
   </ItemGroup>
 
   <ItemGroup>
