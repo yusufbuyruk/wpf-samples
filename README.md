@@ -235,7 +235,7 @@ Source code: [Link to the Project Folder](./wpf-ui-collection-02/wallet-payment/
 
 ---
 
-## X. Weather App
+## 21. Weather App
 ### Description
 Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/weather.zip)
 
@@ -246,13 +246,167 @@ Source code: [Link to the Project Folder](./wpf-ui-collection-02/weather/)
 
 ---
 
-## X. Xxxxx
+## 22. Circular Progressbar
 ### Description
-Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/xxxxx.zip)
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/circular-progressbar.zip)
 
-Source code: [Link to the Project Folder](./wpf-ui-collection-02/xxxxx/)
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/circular-progressbar/)
 
 
-![Project1 Screenshot](portfolio/screenshots/xxxxx.png)
+![Project1 Screenshot](portfolio/screenshots/circular-progressbar.png)
+
+---
+
+## 23. Circular Progressbar App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/circular-progressbar-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/circular-progressbar-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/circular-progressbar-app.png)
+
+---
+
+## 24. Custom Scrollbar
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/custom-scrollbar.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/custom-scrollbar/)
+
+
+![Project1 Screenshot](portfolio/screenshots/custom-scrollbar.png)
+
+---
+
+## 25. Dockbar App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/dockbar-appdockbar-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/dockbar-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/dockbar-app.png)
+
+---
+
+## 26. Dropdown Menu App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/dropdown-menu-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/dropdown-menu-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/dropdown-menu-app.png)
+
+---
+
+## 27. Flipcard
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/flipcard.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/flipcard/)
+
+
+![Project1 Screenshot](portfolio/screenshots/flipcard.png)
+
+---
+
+## 28. Hamburger Menu
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/hamburger-menu.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/hamburger-menu/)
+
+
+![Project1 Screenshot](portfolio/screenshots/hamburger-menu.png)
+
+---
+
+## 29. Matrix Animation App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/matrix-animation-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/matrix-animation-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/matrix-animation-app.png)
+
+---
+
+## 30. Modern Dashboard
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/modern-dashboard.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/modern-dashboard/)
+
+
+![Project1 Screenshot](portfolio/screenshots/modern-dashboard.png)
+
+---
+
+## 31. MVVM Window App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/mvvm-window-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/mvvm-window-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/mvvm-window-app.png)
+
+---
+
+## 32. Navigation Drawer App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/navigation-drawer-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/navigation-drawer-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/navigation-drawer-app.png)
+
+---
+
+## 33. Navigation Menu App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/navigation-menu-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/navigation-menu-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/navigation-menu-app.png)
+
+---
+
+## 34. Page Navigation App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/page-navigation-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/page-navigation-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/page-navigation-app.png)
+
+---
+
+## 35. Responsive App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/responsive-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/responsive-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/responsive-app.png)
+
+---
+
+## 36. Ripple App
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/ripple-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/ripple-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/ripple-app.png)
 
 ---
