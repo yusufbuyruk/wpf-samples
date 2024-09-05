@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dock Bar App/1.0.0": {
+        "runtime": {
+          "Dock Bar App.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dock Bar App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
