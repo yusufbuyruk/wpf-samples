@@ -26,12 +26,24 @@ Source code: [Link to the Project Folder](./wpf-ui-collection-02/dark-admin-pane
 
 ---
 
-## 2. Dark Admin Panel
+## 2. Fitness Tracker (Live Charts)
 ### Description
-Source code: [Link to the Project Folder](./WPF%20UI%20Samples%2002/WPF-Dark-Admin-Panel-master)
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/fitness-tracker.zip)
 
-![Project1 Screenshot](portfolio/screenshots/live-charts-dark-admin-panel.png)
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/fitness-tracker/)
+
+
+![Project1 Screenshot](portfolio/screenshots/fitness-tracker.png)
 
 ---
 
+## 3. Recruitment Dashboard (Live Charts)
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/recruitment-dashboard.zip)
 
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/recruitment-dashboard/)
+
+
+![Project1 Screenshot](portfolio/screenshots/recruitment-dashboard.png)
+
+---
