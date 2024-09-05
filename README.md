@@ -396,7 +396,11 @@ Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/m
 Source code: [Link to the Project Folder](./wpf-ui-collection-01/responsive-app/)
 
 
-![Project1 Screenshot](portfolio/screenshots/responsive-app.png)
+![Project1 Screenshot](portfolio/screenshots/responsive-app_1.png)
+![Project1 Screenshot](portfolio/screenshots/responsive-app_2.png)
+![Project1 Screenshot](portfolio/screenshots/responsive-app_3.png)
+![Project1 Screenshot](portfolio/screenshots/responsive-app_4.png)
+![Project1 Screenshot](portfolio/screenshots/responsive-app_5.png)
 
 ---
 
