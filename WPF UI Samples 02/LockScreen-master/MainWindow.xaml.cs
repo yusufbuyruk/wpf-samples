@@ -66,7 +66,7 @@ namespace LockScreen
             try
             {
                 tbl_Setting setting = liteDb.Select(1);
-                System.Windows.Forms.MessageBox.Show(setting.passWord);
+                System.Windows.Forms.MessageBox.Show($"Password: { setting.passWord}");
                 titleTextBox.Text = txtTitle.Text = setting.title;
                 startUpSwitch.IsChecked = setting.isStartUp;
             }

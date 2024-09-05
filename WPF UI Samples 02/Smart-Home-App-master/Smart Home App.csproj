@@ -2,9 +2,10 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
     <RootNamespace>Smart_Home_App</RootNamespace>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>CrossRunner.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,6 +29,10 @@
     <None Remove="Images\_setting.png" />
     <None Remove="Images\_shield.png" />
     <None Remove="Images\_users.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="CrossRunner.ico" />
   </ItemGroup>
 
   <ItemGroup>

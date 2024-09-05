@@ -17,5 +17,10 @@ namespace Sign_Up_Form
                 this.DragMove();
             }
         }
+
+        private void Image_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

@@ -2,9 +2,10 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
     <RootNamespace>Input_Form</RootNamespace>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>CrossRunner.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,6 +23,10 @@
     <None Remove="Images\q3.jpg" />
     <None Remove="Images\q4.jpg" />
     <None Remove="Images\q5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="CrossRunner.ico" />
   </ItemGroup>
 
   <ItemGroup>

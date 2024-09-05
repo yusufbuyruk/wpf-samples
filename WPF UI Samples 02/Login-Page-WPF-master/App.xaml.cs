@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Login_Pape
+namespace Login_Page
 {
     /// <summary>
     /// Interaction logic for App.xaml

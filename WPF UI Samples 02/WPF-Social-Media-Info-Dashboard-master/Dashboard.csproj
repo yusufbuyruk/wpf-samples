@@ -2,14 +2,19 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>CrossRunner.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Images\close.png" />
     <None Remove="Images\mini.png" />
     <None Remove="Images\user.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="CrossRunner.ico" />
   </ItemGroup>
 
   <ItemGroup>

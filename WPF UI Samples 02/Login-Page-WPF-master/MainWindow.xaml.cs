@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Input;
 
-namespace Login_Pape
+namespace Login_Page
 {
     public partial class MainWindow : Window
     {
