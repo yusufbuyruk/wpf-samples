@@ -281,7 +281,7 @@ Source code: [Link to the Project Folder](./wpf-ui-collection-01/custom-scrollba
 
 ## 25. Dockbar App
 ### Description
-Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/dockbar-appdockbar-app.zip)
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/dockbar-app.zip)
 
 Source code: [Link to the Project Folder](./wpf-ui-collection-01/dockbar-app/)
 
