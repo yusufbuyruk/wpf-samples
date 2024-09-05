@@ -47,3 +47,36 @@ Source code: [Link to the Project Folder](./wpf-ui-collection-01/recruitment-das
 ![Project1 Screenshot](portfolio/screenshots/recruitment-dashboard.png)
 
 ---
+
+## 4. Sales Dashboard (Live Charts)
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/sales-dashboard.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/sales-dashboard/)
+
+
+![Project1 Screenshot](portfolio/screenshots/sales-dashboard.png)
+
+---
+
+## 5. Skill Dashboard (Live Charts)
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/skill-dashboard.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/skill-dashboard/)
+
+
+![Project1 Screenshot](portfolio/screenshots/skill-dashboard.png)
+
+---
+
+## 6. TV App (Live Charts)
+### Description
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/tv-app.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-01/tv-app/)
+
+
+![Project1 Screenshot](portfolio/screenshots/tv-app.png)
+
+---
