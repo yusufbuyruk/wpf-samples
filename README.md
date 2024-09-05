@@ -15,10 +15,12 @@ To run any of the projects, follow these steps:
 
 ---
 
-## 1. Dark Admin Panel
+## 1. Dark Admin Panel (Live Charts)
 ### Description
-Source code: [Link to the Project Folder](./wpf-ui-collection-02/dark-admin-panel/)
 Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/raw/main/portfolio/executable/dark-admin-panel.zip)
+
+Source code: [Link to the Project Folder](./wpf-ui-collection-02/dark-admin-panel/)
+
 
 ![Project1 Screenshot](portfolio/screenshots/dark-admin-panel.png)
 
