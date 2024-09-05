@@ -5,6 +5,7 @@ This repository contains various WPF projects I've worked on. Some of these proj
 ## \#1: Dark Admin Panel
 ### Description
 Source code: [Link to the Project Folder](./WPF%20UI%20Samples%2002/WPF-Dark-Admin-Panel-master)
+Live Demo: [Download ZIP (EXE)](https://github.com/yusufbuyruk/wpf-samples/releases/download/v1.0/ProjectName1.zip)
 
 ![Project1 Screenshot](portfolio/screenshots/live-charts-dark-admin-panel.png)
 
