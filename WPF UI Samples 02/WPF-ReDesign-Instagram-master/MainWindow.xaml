@@ -24,8 +24,8 @@
 
             <uc:Profile Size="100" Source="/Images/user.jpg" PaddingNum="5"/>
 
-            <TextBlock Text="Mohsen Alavi" TextAlignment="Center" FontSize="20" FontWeight="SemiBold" Margin="0 10 0 5"/>
-            <TextBlock Text="@mohsen29" TextAlignment="Center" FontSize="14" Foreground="#9a9a9a"/>
+            <TextBlock Text="Jack Sparrow" TextAlignment="Center" FontSize="20" FontWeight="SemiBold" Margin="0 10 0 5"/>
+            <TextBlock Text="@blackpearl" TextAlignment="Center" FontSize="14" Foreground="#9a9a9a"/>
 
             <Grid Margin="15 25">
                 <Grid.ColumnDefinitions>
